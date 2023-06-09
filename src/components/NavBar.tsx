@@ -128,14 +128,22 @@ const NavBar: React.FC = () => {
               >
                 <Text fontSize={50} mb={20} _hover={{ color: "#5bc0beff" }}>
                   <ScrollLink to="About" smooth={true} duration={500}>
-                    <Link color={"white"} _hover={{ textDecoration: "none" }}>
+                    <Link
+                      onClick={onClose}
+                      color={"white"}
+                      _hover={{ textDecoration: "none" }}
+                    >
                       About
                     </Link>
                   </ScrollLink>
                 </Text>
                 <Text fontSize={50} mb={20} _hover={{ color: "#5bc0beff" }}>
                   <ScrollLink to="Project" smooth={true} duration={500}>
-                    <Link color={"white"} _hover={{ textDecoration: "none" }}>
+                    <Link
+                      onClick={onClose}
+                      color={"white"}
+                      _hover={{ textDecoration: "none" }}
+                    >
                       Project
                     </Link>
                   </ScrollLink>
@@ -147,7 +155,11 @@ const NavBar: React.FC = () => {
                   _hover={{ color: "#5bc0beff" }}
                 >
                   <ScrollLink to="Contact" smooth={true} duration={500}>
-                    <Link color={"white"} _hover={{ textDecoration: "none" }}>
+                    <Link
+                      onClick={onClose}
+                      color={"white"}
+                      _hover={{ textDecoration: "none" }}
+                    >
                       Contact
                     </Link>
                   </ScrollLink>
