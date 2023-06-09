@@ -8,9 +8,14 @@ const Contact = () => {
       <Heading fontSize={"1.875em"} mb={5} color="white">
         Let's stay in touch!
       </Heading>
-      <Text fontSize={"1.125em"} color="#5bc0beff" mb={6}>
+      <Link
+        href={"mailto:drewbae912@gmail.com"}
+        fontSize={"1.125em"}
+        color="#5bc0beff"
+        mb={6}
+      >
         drewbae912@gmail.com
-      </Text>
+      </Link>
       <HStack justify="center" spacing={4} pb={36}>
         <Link
           href={"https://www.linkedin.com/in/drew-bae-744919202/"}
