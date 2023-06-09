@@ -1,4 +1,4 @@
-import { Box, HStack, Heading, Link, Text } from "@chakra-ui/layout";
+import { Box, HStack, Heading, Link } from "@chakra-ui/layout";
 import { Icon } from "@chakra-ui/react";
 import { FaGithub, FaInstagram, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
