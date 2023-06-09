@@ -31,7 +31,7 @@ const ProjectCard = ({
   return (
     <Card maxWidth={maxWidth} mx="auto" overflow="hidden">
       <Image src={picture} />
-      <CardBody p={4}>
+      <CardBody p={4} bg="gray.700">
         <Heading fontSize="1.25rem" mb={2}>
           {heading}
         </Heading>

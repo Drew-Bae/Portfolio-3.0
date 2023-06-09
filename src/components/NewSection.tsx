@@ -30,7 +30,9 @@ const NewSection = ({ sectionNumber, sectionHeading, children }: Props) => {
         >
           {sectionNumber}
         </Heading>
-        <Heading fontSize={fontSizeHeading}>{sectionHeading}</Heading>
+        <Heading fontSize={fontSizeHeading} color="white">
+          {sectionHeading}
+        </Heading>
         <Divider
           flex={1}
           mx={9}

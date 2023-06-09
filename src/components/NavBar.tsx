@@ -45,7 +45,7 @@ const NavBar: React.FC = () => {
       wrap="wrap"
       padding={4}
       bg={isSticky ? "#0b132bff" : "#0b132bff"}
-      color={isSticky ? "white" : "inherit"}
+      color={isSticky ? "white" : "white"}
       height="70px"
       width="100%"
       position={isSticky ? "fixed" : "static"}
