@@ -15,7 +15,7 @@ const About = ({ maxWidth }: Props) => {
     <Box id="About" pt={20} bg="#182139">
       <Text
         fontSize={20}
-        color="gray.600"
+        color="gray.500"
         textAlign={"center"}
         maxWidth={maxWidth}
         mx="auto"

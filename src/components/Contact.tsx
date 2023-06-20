@@ -12,11 +12,10 @@ const Contact = () => {
         href={"mailto:drewbae912@gmail.com"}
         fontSize={"1.125em"}
         color="#5bc0beff"
-        mb={6}
       >
         drewbae912@gmail.com
       </Link>
-      <HStack justify="center" spacing={4} pb={36}>
+      <HStack justify="center" mt={6} spacing={4} pb={36}>
         <Link
           href={"https://www.linkedin.com/in/drew-bae-744919202/"}
           target="_blank"
