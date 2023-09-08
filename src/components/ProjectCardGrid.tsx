@@ -18,7 +18,7 @@ const ProjectCardGrid = () => {
       pr={8}
       pt={20}
       pb={pb}
-      spacing={5}
+      spacing={10}
       bg="#182139"
     >
       <ProjectCard
