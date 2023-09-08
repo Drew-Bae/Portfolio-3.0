@@ -37,15 +37,17 @@ const Hero = () => {
     <Box id="Hero" bg="#182139" color="white" py={pyHeading} textAlign="center">
       <Heading fontSize={fontSizeHeading}>Hi, my name is Drew.</Heading>
       <Heading fontSize={fontSizeHeading} color="#5bc0beff">
-        I'm a Front-End Web Developer.
+        I'm a UX Designer / Web Developer.
       </Heading>
       <Text fontSize={fontSizeText} color="gray.500" py={12} px={pxText}>
-        Welcome to my portfolio! I'm Drew Bae, a Front-End Web Developer based
-        in the United States. I specialize in creating user-friendly web
-        experiences with HTML, CSS, JavaScript, React, and TypeScript. Explore
-        my projects to see my passion for intuitive design and optimized
-        performance. Let's connect and discuss how I can contribute to your next
-        web development venture.
+        Welcome to my portfolio! I'm Drew Bae, a Front-End Web Developer and UX
+        Designer based in the United States. I excel in crafting user-friendly
+        web experiences, leveraging HTML, CSS, JavaScript, React, and
+        TypeScript. With a keen eye for UX research, Wireframing, and Usability
+        Testing, I'm passionate about creating intuitive interfaces that elevate
+        user satisfaction. Let's connect and enhance your web development
+        projects through my combined expertise in frontend development and UX
+        design.
       </Text>
       <a
         href="https://www.linkedin.com/in/drew-bae-744919202/"
