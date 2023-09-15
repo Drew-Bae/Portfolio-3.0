@@ -6,6 +6,7 @@ import About from "./components/About";
 import ProjectCardGrid from "./components/ProjectCardGrid";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import UX from "./components/UX";
 
 function App() {
   return (
@@ -23,10 +24,13 @@ function App() {
         <NewSection sectionNumber="01" sectionHeading="About">
           <About maxWidth="875px" />
         </NewSection>
-        <NewSection sectionNumber="02" sectionHeading="Projects">
+        <NewSection sectionNumber="02" sectionHeading="UX Portfolio">
+          <UX />
+        </NewSection>
+        <NewSection sectionNumber="03" sectionHeading="Projects">
           <ProjectCardGrid />
         </NewSection>
-        <NewSection sectionNumber="03" sectionHeading="Contact">
+        <NewSection sectionNumber="04" sectionHeading="Contact">
           <Contact />
         </NewSection>
         <Footer />

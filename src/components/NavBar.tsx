@@ -87,6 +87,15 @@ const NavBar: React.FC = () => {
           transition="color 0.3s"
           _hover={{ color: "#5bc0beff" }}
         >
+          <ScrollLink to="UX Portfolio" smooth={true} duration={500}>
+            <Link _hover={{ textDecoration: "none" }}>UX Portfolio</Link>
+          </ScrollLink>
+        </Text>
+        <Text
+          fontSize="lg"
+          transition="color 0.3s"
+          _hover={{ color: "#5bc0beff" }}
+        >
           <ScrollLink to="Project" smooth={true} duration={500}>
             <Link _hover={{ textDecoration: "none" }}>Project</Link>
           </ScrollLink>
@@ -134,6 +143,17 @@ const NavBar: React.FC = () => {
                       _hover={{ textDecoration: "none" }}
                     >
                       About
+                    </Link>
+                  </ScrollLink>
+                </Text>
+                <Text fontSize={50} mb={20} _hover={{ color: "#5bc0beff" }}>
+                  <ScrollLink to="UX Portfolio" smooth={true} duration={500}>
+                    <Link
+                      onClick={onClose}
+                      color={"white"}
+                      _hover={{ textDecoration: "none" }}
+                    >
+                      UX Portfolio
                     </Link>
                   </ScrollLink>
                 </Text>

@@ -2,7 +2,6 @@ import { SimpleGrid, useBreakpointValue } from "@chakra-ui/react";
 import ProjectCard from "./ProjectCard";
 import gamePic from "../assets/gamehub-ss (1).png";
 import moshPic from "../assets/moshify-ss (1).png";
-import portfolioPic from "../assets/portfolioPic.png";
 
 const ProjectCardGrid = () => {
   const pb = useBreakpointValue({
@@ -21,34 +20,6 @@ const ProjectCardGrid = () => {
       spacing={10}
       bg="#182139"
     >
-      <ProjectCard
-        maxWidth="875px"
-        heading="Google UX Design Portfolio"
-        badges={[
-          "UX Design",
-          "User Research",
-          "Prototyping",
-          "Wireframing",
-          "Information Architecture",
-          "User Testing",
-          "Figma",
-        ]}
-        picture={portfolioPic} // Replace 'portfolioPic' with the image source for this project
-        link="https://docs.google.com/presentation/d/1T4IZK0Za9KGjNS5RZRORVveevnVNT6K-Bj0UXrzQ2KU/edit?usp=sharing"
-      >
-        In my Google UX Design Portfolio, I showcase my expertise in user
-        experience design. One of my standout projects is the "Menu Preview App
-        for a Food Truck." This project involved a comprehensive UX design
-        process, including user research, persona development, and
-        storyboarding. I created wireframes and prototypes using Figma to
-        visualize the app's user flows and information architecture, ensuring a
-        seamless and intuitive experience. User testing played a pivotal role in
-        refining the app, resulting in a user-friendly interface where customers
-        can easily preview a food truck's menu, place orders, and receive
-        real-time updates. This project exemplifies my skills in UX design, from
-        initial research to final user-tested prototypes, all aimed at
-        delivering an exceptional user experience.
-      </ProjectCard>
       <ProjectCard
         maxWidth="875px"
         heading="Game-Hub App"
